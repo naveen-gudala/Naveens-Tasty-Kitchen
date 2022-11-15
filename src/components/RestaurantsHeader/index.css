@@ -1,0 +1,94 @@
+.select-option {
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+  left: 78.54%;
+  right: 13.68%;
+  top: 16.22%;
+  bottom: 80.54%;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin-left: 3px;
+}
+
+.filter {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Light / blue-gray / 600 */
+
+  width: 24px;
+  height: 24px;
+}
+
+.filter-heading {
+  left: 78.54%;
+  right: 13.68%;
+  top: 16.22%;
+  bottom: 80.54%;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin-left: 3px;
+}
+
+.select-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 770px) {
+  .filters-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* or 200% */
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+
+.popular-rest-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #183b56;
+}

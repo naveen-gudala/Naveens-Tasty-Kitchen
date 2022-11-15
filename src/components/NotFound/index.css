@@ -1,0 +1,74 @@
+.not-found-img {
+  width: 269px;
+  height: 297px;
+}
+
+.not-found-heading {
+  left: 41.67%;
+  right: 41.6%;
+  top: 56.64%;
+  bottom: 38.67%;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+
+.not-found-description {
+  left: 31.6%;
+  right: 31.6%;
+  top: 62.89%;
+  bottom: 30.86%;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+
+.home-page-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 123px;
+  height: 48px;
+
+  background: #f7931e;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #ffffff;
+  outline: none;
+  border-width: 0px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
